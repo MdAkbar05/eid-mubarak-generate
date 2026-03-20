@@ -5,6 +5,7 @@ const BASE_URL =
   "https://eid-mubarak-generator.vercel.app";
 
 export const metadata = {
+  metadataBase: new URL(BASE_URL),
   title: "Eid Mubarak Generator 🌙 — Create Beautiful Eid Greeting Cards",
   description:
     "Generate personalized Eid Mubarak greeting cards in seconds. Choose your tone — Islamic, Emotional, Funny or Bangla — download as PNG and share on WhatsApp.",
