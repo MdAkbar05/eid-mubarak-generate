@@ -8,7 +8,7 @@ export const metadata = {
   metadataBase: new URL(BASE_URL),
   title: "Eid Mubarak Generator 🌙 — Create Beautiful Eid Greeting Cards",
   description:
-    "Generate personalised Eid Mubarak greeting cards in seconds. Choose your tone — Islamic, Emotional, Funny or Bangla — download as PNG and share on WhatsApp.",
+    "Generate personalized Eid Mubarak greeting cards in seconds. Choose your tone — Islamic, Emotional, Funny or Bangla — download as PNG and share on WhatsApp.",
   keywords: [
     "Eid Mubarak",
     "Eid greeting card",
@@ -31,11 +31,11 @@ export const metadata = {
     url: BASE_URL,
     title: "Eid Mubarak Generator 🌙 — Create Beautiful Eid Greeting Cards",
     description:
-      "Create and share beautiful personalised Eid Mubarak greeting cards. Islamic, Emotional, Funny and Bangla tones. Free — no signup needed.",
+      "Create and share beautiful personalized Eid Mubarak greeting cards. Islamic, Emotional, Funny and Bangla tones. Free — no signup needed.",
     siteName: "Eid Mubarak Generator",
     images: [
       {
-        url: "/og-image.svg",
+        url: `${BASE_URL}/og-image.svg`,
         width: 1200,
         height: 630,
         alt: "Eid Mubarak Generator — Create Beautiful Eid Greeting Cards",
@@ -48,8 +48,8 @@ export const metadata = {
     card: "summary_large_image",
     title: "Eid Mubarak Generator 🌙",
     description:
-      "Create personalised Eid greeting cards with beautiful designs. Download & share on WhatsApp — free!",
-    images: ["/og-image.svg"],
+      "Create personalized Eid greeting cards with beautiful designs. Download & share on WhatsApp — free!",
+    images: [`${BASE_URL}/og-image.svg`],
   },
 };
 
