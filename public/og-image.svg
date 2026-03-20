@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#022c22"/>
+      <stop offset="50%"  stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="moonGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#34d399" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Geometric pattern overlay — hex rings -->
+  <g stroke="#34d399" stroke-width="0.6" fill="none" opacity="0.07">
+    <polygon points="600,60 680,105 680,195 600,240 520,195 520,105"/>
+    <polygon points="600,80 660,115 660,185 600,220 540,185 540,115"/>
+    <polygon points="60,400 120,435 120,505 60,540 0,505 0,435"/>
+    <polygon points="1140,100 1200,135 1200,205 1140,240 1080,205 1080,135"/>
+    <polygon points="100,80 160,115 160,185 100,220 40,185 40,115"/>
+    <polygon points="1100,420 1160,455 1160,525 1100,560 1040,525 1040,455"/>
+  </g>
+
+  <!-- Soft glow behind moon -->
+  <ellipse cx="820" cy="310" rx="220" ry="220" fill="#34d399" opacity="0.07"/>
+  <ellipse cx="820" cy="310" rx="140" ry="140" fill="#34d399" opacity="0.08"/>
+
+  <!-- Moon crescent -->
+  <circle cx="840" cy="308" r="130" fill="#34d399" opacity="0.92"/>
+  <circle cx="900" cy="278" r="98"  fill="#053b29"/>
+
+  <!-- Star beside moon -->
+  <polygon
+    points="700,180 710,212 744,212 718,232 728,264 700,244 672,264 682,232 656,212 690,212"
+    fill="#fbbf24" opacity="0.95"
+  />
+
+  <!-- Decorative tiny stars scattered -->
+  <circle cx="160"  cy="120" r="3"   fill="#fbbf24" opacity="0.5"/>
+  <circle cx="980"  cy="80"  r="2.5" fill="#34d399" opacity="0.5"/>
+  <circle cx="1060" cy="200" r="2"   fill="#fbbf24" opacity="0.4"/>
+  <circle cx="200"  cy="500" r="2.5" fill="#34d399" opacity="0.45"/>
+  <circle cx="1000" cy="530" r="3"   fill="#fbbf24" opacity="0.4"/>
+  <circle cx="500"  cy="560" r="2"   fill="#34d399" opacity="0.4"/>
+  <circle cx="80"   cy="300" r="2"   fill="#fbbf24" opacity="0.35"/>
+  <circle cx="420"  cy="80"  r="1.8" fill="#34d399" opacity="0.4"/>
+  <circle cx="1140" cy="350" r="2"   fill="#34d399" opacity="0.35"/>
+
+  <!-- Arabic greeting top -->
+  <text
+    x="190" y="148"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="22" fill="#34d399" opacity="0.55"
+    letter-spacing="6"
+  >✦  بسم الله الرحمن الرحيم  ✦</text>
+
+  <!-- Main headline -->
+  <text
+    x="190" y="290"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="96" font-weight="700" fill="#ffffff"
+    letter-spacing="-2"
+  >Eid Mubarak</text>
+
+  <!-- Subtitle -->
+  <text
+    x="192" y="360"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="32" font-weight="400" fill="#34d399"
+    letter-spacing="1"
+  >عيد مبارك</text>
+
+  <!-- Divider line -->
+  <line x1="192" y1="398" x2="620" y2="398" stroke="#34d399" stroke-width="1" opacity="0.35"/>
+  <circle cx="628" cy="398" r="3" fill="#fbbf24" opacity="0.7"/>
+  <line x1="636" y1="398" x2="680" y2="398" stroke="#34d399" stroke-width="1" opacity="0.2"/>
+
+  <!-- Description -->
+  <text
+    x="192" y="450"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="26" fill="#ffffff" opacity="0.65"
+  >Create beautiful personalised Eid greeting cards</text>
+
+  <!-- CTA pill -->
+  <rect x="192" y="490" width="300" height="54" rx="27" fill="#34d399" opacity="0.15" stroke="#34d399" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text
+    x="342" y="523"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="20" font-weight="600" fill="#34d399"
+    text-anchor="middle" letter-spacing="1"
+  >🌙  Generate &amp; Share Free</text>
+
+  <!-- Bottom border glow line -->
+  <rect x="0" y="626" width="1200" height="4" fill="#34d399" opacity="0.4"/>
+</svg>
