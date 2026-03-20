@@ -5,7 +5,6 @@ const BASE_URL =
   "https://eid-mubarak-generator.vercel.app";
 
 export const metadata = {
-  metadataBase: new URL(BASE_URL),
   title: "Eid Mubarak Generator 🌙 — Create Beautiful Eid Greeting Cards",
   description:
     "Generate personalized Eid Mubarak greeting cards in seconds. Choose your tone — Islamic, Emotional, Funny or Bangla — download as PNG and share on WhatsApp.",
@@ -33,15 +32,7 @@ export const metadata = {
     description:
       "Create and share beautiful personalized Eid Mubarak greeting cards. Islamic, Emotional, Funny and Bangla tones. Free — no signup needed.",
     siteName: "Eid Mubarak Generator",
-    images: [
-      {
-        url: `${BASE_URL}/og-image.svg`,
-        width: 1200,
-        height: 630,
-        alt: "Eid Mubarak Generator — Create Beautiful Eid Greeting Cards",
-        type: "image/svg+xml",
-      },
-    ],
+    images: "/og-image.svg",
   },
 
   twitter: {
@@ -49,7 +40,7 @@ export const metadata = {
     title: "Eid Mubarak Generator 🌙",
     description:
       "Create personalized Eid greeting cards with beautiful designs. Download & share on WhatsApp — free!",
-    images: [`${BASE_URL}/og-image.svg`],
+    images: "/og-image.svg",
   },
 };
 
