@@ -32,7 +32,7 @@ export const metadata = {
     description:
       "Create and share beautiful personalized Eid Mubarak greeting cards. Islamic, Emotional, Funny and Bangla tones. Free — no signup needed.",
     siteName: "Eid Mubarak Generator",
-    images: "/og-image.svg",
+    images: "/og-image.png",
   },
 
   twitter: {
@@ -40,7 +40,7 @@ export const metadata = {
     title: "Eid Mubarak Generator 🌙",
     description:
       "Create personalized Eid greeting cards with beautiful designs. Download & share on WhatsApp — free!",
-    images: "/og-image.svg",
+    images: "/og-image.png",
   },
 };
 
